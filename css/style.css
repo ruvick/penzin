@@ -130,7 +130,7 @@ h2 {
 h3 {
   font-size: 26px;
   font-weight: bold;
-  line-height: 88px; }
+  line-height: 28px; }
 
 .wrapper {
   width: 100%;
@@ -1002,6 +1002,53 @@ body.ie .ibg img {
   color: #fff;
   padding-bottom: 13px;
   display: inline-block; }
+
+.footer {
+  background: #86A298; }
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 332px;
+    padding: 15px 0; }
+  .footer__row {
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .footer__menu li {
+    margin-bottom: 14.5px; }
+    .footer__menu li:last-child {
+      margin-bottom: 0; }
+  .footer__contact .header__callback {
+    margin-bottom: 25px; }
+  .footer__contact .header__callback a {
+    font-family: 'Lato';
+    font-size: 31px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px; }
+  .footer__link-social {
+    display: block;
+    margin-bottom: 39px; }
+  .footer__policy {
+    font-size: 14px;
+    line-height: 18px; }
+  .footer__form {
+    max-width: 393px;
+    width: 100%; }
+    .footer__form h3 {
+      margin-bottom: 28px; }
+  .footer__form-input {
+    margin-bottom: 22px; }
+  .footer__form-btn {
+    width: 225px;
+    height: 37px;
+    font-size: 18.5px;
+    background: #FCA01F; }
 
 .competence {
   padding: 0 0 35px 0; }
