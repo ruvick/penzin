@@ -1279,7 +1279,8 @@ body.ie .ibg img {
     background: #fff;
     color: #161615;
     -webkit-box-shadow: 0px 13px 12px -13px #000000;
-    box-shadow: 0px 13px 12px -13px #000000; }
+    box-shadow: 0px 13px 12px -13px #000000;
+    margin-top: -65px; }
   .certificates__img-block {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 52%;
@@ -1742,7 +1743,9 @@ body.ie .ibg img {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; }
+  .certificates__btn {
+    margin-top: 0; } }
 
 @media (max-width: 700px) {
   .mob-menu {
@@ -1831,6 +1834,8 @@ body.ie .ibg img {
     -o-object-fit: fill;
     object-fit: cover;
     /* height: auto; */
+    width: 100%; }
+  .certificates__btn {
     width: 100%; } }
 
 @media (max-width: 414px) {
