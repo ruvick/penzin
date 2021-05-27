@@ -1717,7 +1717,13 @@ body.ie .ibg img {
     -o-transition: right 0.8s;
     transition: right 0.8s; } }
 
+@media (max-width: 530px) {
+  .competence__list-block-item p {
+    margin-left: 10px; } }
+
 @media (max-width: 515px) {
+  .page {
+    padding: 30px 0 55px 0; }
   .header {
     padding: 63px 0 53px 0; }
   .header__row {
@@ -1740,7 +1746,35 @@ body.ie .ibg img {
     display: flex;
     margin-right: 25px; }
   .mob-menu {
-    margin-top: 48px; } }
+    margin-top: 48px; }
+  .competence__list-info {
+    height: 100%; }
+  .competence__list-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .competence__list-internal {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    margin-right: 0;
+    margin-bottom: 20px; }
+  .competence__list-btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .competence__btn {
+    width: 100%;
+    margin: 0 0 15px 0; }
+  .competence__btn:last-child {
+    width: 100%;
+    margin: 0; }
+  .competence__list-block-item {
+    padding-left: 30px; }
+  .competence__list-block-item p {
+    margin-left: 0; } }
 
 @media (max-width: 414px) {
   .header h1 {
@@ -1752,3 +1786,7 @@ body.ie .ibg img {
     margin-bottom: 35px; }
   .header__btn {
     width: 100%; } }
+
+@media (max-width: 380px) {
+  .competence h2 {
+    font-size: 30px; } }
